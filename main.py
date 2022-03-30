@@ -17,7 +17,7 @@ from dash.dependencies import Input, Output
 from dash import dcc
 from dash import html
 
-app = dash.Dash(__name__)
+app = dash.Dash('app')
 server = app.server
 app.title = "Metody polowe"
 print("runs")
